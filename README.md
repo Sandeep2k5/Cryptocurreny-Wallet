@@ -1,33 +1,3 @@
-Cryptocurrency Wallet & Blockchain System
-This project is a basic cryptocurrency wallet and blockchain system with a client-server setup. It includes a graphical user interface (GUI) for managing blockchain accounts, viewing balances, and conducting transactions using a Proof-of-Work (PoW) blockchain. The project allows blockchain data synchronization between clients and a server.
-
-Table of Contents
-Features
-Project Structure
-Prerequisites
-Installation
-Usage
-Server Setup
-Client Setup
-Contributing
-License
-Features
-Blockchain Implementation: Basic blockchain structure with a Genesis block, block mining, and chain verification.
-Proof of Work (PoW): Simple PoW mechanism with adjustable difficulty.
-Account Management: Create and manage accounts with private and public keys.
-Transaction Management: Validate and conduct transactions between accounts.
-Client-Server Synchronization: Sync blockchain data between client and server.
-Project Structure
-graphql
-Copy code
-.
-├── main.py                 # Main GUI client for wallet and blockchain operations
-├── server.py               # Server for receiving blockchain data
-├── blockchain.py           # Blockchain implementation (Blocks, Blockchain, Account classes)
-├── blockchain.json         # JSON file to persist the blockchain
-├── accounts.json           # JSON file to persist user accounts
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
 Prerequisites
 Python 3.x
 PyQt5 for the GUI application
@@ -88,4 +58,4 @@ Contributing
 Contributions are welcome! Please open an issue to discuss what you’d like to contribute or improve, and feel free to submit a pull request with your changes.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.s
